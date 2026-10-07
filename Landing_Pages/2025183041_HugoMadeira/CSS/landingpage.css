@@ -1,0 +1,383 @@
+main {
+    max-width: 1440px;
+    margin:auto;
+}
+
+nav img {
+    margin-left: 20px;
+    height: 50px;
+}
+
+.banner h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+body {
+    background: #EAF4FF;
+}
+
+.banner {
+    height: 580px;
+    max-width: 100%;
+    background-image: url("../img/pessoas_correr.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+}
+
+.container-info {
+    background-color: #ffffff;
+    padding: 5px;
+    opacity: 70%;
+    border-radius: 20px;
+    height: 350px;
+    width: 50%;
+    margin-top: 45px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.container-info p {
+    text-align: center;
+    border-radius: 20px;
+}
+
+.container-info h2 {
+    font-family: cursive;
+}
+
+.container-form {
+    clear: both;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 150px;
+    width: 80%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#nome {
+    position: relative;
+    float: left;
+    height: auto;
+}
+
+#fname {
+    border-radius: 20px;
+    height: auto;
+    width: 260px;
+}
+
+#ultimonome {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-left: 25px;
+}
+
+#lname {
+    border-radius: 20px;
+    height: auto;
+    width: 263px;
+}
+
+#email {
+    position: relative;
+    float: left;
+    margin:auto;
+}
+
+#Femail {
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.container-form button {
+    clear: both;
+    max-width: 80%;
+    height: 35px;
+    border-radius: 15px;
+    animation-name: animacao_botao;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+@keyframes animacao_botao {
+    0% {
+        background-color: #dd9bd8;
+    }
+
+    50% {
+        background-color: rgb(255, 255, 255);
+    }
+
+    100% {
+        background-color: #dd9bd8;
+    }
+}
+
+.container-info-ofertas {
+    clear: both;
+    background-color: #ffffff;
+    box-shadow: -10px 10px 15px black;
+    margin-top: 50px;
+    border-radius: 20px;
+    max-width: 1250px;
+    height: auto;
+    padding: 10px;
+
+}
+
+.container-info-ofertas h2 {
+    text-align: center;
+    font-family: cursive;
+}
+
+#texto {
+    display: none;
+    margin-bottom: 5px;
+}
+
+#texto-info {
+    display: none;
+    margin-bottom: 5px;
+}
+
+.carregar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    animation-name: animacao_botao;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.container-feed {
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-feed div {
+    align-items: center;
+    float: left;
+    background-color: #ffffff;
+    box-shadow: -10px 10px 15px black;
+    height: fit-content;
+    margin: 30px;
+    width: 160px;
+    border-radius: 20px;
+}
+
+.container-feed img{
+    margin:20px;
+    height: 132px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.container-feed p {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: none;
+}
+
+#feed-info1:hover #texto-feed1,
+#feed-info2:hover #texto-feed2,
+#feed-info3:hover #texto-feed3,
+#feed-info4:hover #texto-feed4 {
+    display: block;
+}
+
+@media(max-width:950px) {
+    main {
+        margin: 80px auto 0 auto;
+    }
+    .container-info {
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container-form {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        max-width: 350px;
+    }
+    #nome {
+        margin-right: 15px;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #ultimonome {
+        margin-right: 15px;
+        margin-left: 20px;
+    }
+    #email {
+        margin-right: 15px;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .container-info h2 {
+        margin: auto;
+    }
+    .container-form button {
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    .container-info-ofertas {
+        margin:auto;
+        max-width: 80%;
+    }
+    .carregar {
+        max-width: 250px;
+    }
+    .container-feed {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: auto;
+        margin-left: 70px;
+        margin-right: auto;
+        max-width: 80%;
+        justify-content: center;
+    }
+    .container-feed div {
+        margin: 15px auto;
+        height: 173px;
+        width: 500px;
+    }
+    .container-feed p {
+        float: right;
+        display: flex;
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 100px;
+        width: 200px;
+    }
+}
+
+@media(max-width:600px) {
+    .container-form {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+    #nome {
+        margin-right: auto;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #ultimonome {
+        margin-right: auto;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    #email {
+        margin-right: auto;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    #Femail {
+        margin: auto;
+        width: 95%;
+    }
+    #lname {
+        margin: auto;
+        width: 95%;
+    }
+    #fname {
+        margin: auto;
+        width: 95%;
+    }
+    .container-info h2 {
+        margin: auto;
+    }
+
+    .container-form button {
+        width: 80%;
+    }
+
+    .carregar {
+        width: 200px;
+    }
+
+    .container-feed {
+        max-width: 100%;
+        margin: 5px;
+    }
+
+    .container-feed div {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 173px;
+        max-width: 400px;
+    }
+
+    .container-feed p {
+        margin-left: auto;
+        margin-right: 10px;
+        width: 230px;
+    }
+}
+@media(max-width:380px) {
+    .container-feed div {
+        align-items: center;
+        float: left;
+        height: fit-content;
+        margin: auto;
+        margin-top: 10px;
+        width: 80%;
+        border-radius: 20px;
+    }
+    .container-feed img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+    .container-feed p{
+        width: auto;
+        margin-top: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
