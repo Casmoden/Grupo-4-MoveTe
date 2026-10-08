@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+}
+
+.banner_text {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.secondcolor {
+  color: #FDC449;
+}
+
+.information {
+  max-width: 600px;
+}
+
+.btn_color {
+  background-color: #FDC449 !important;
+  color: #000000 !important;
+}
+
+
+.btn_color:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.info_img {
+  width: 30px;
+  height: 24px;
+}
+
+.backcolor {
+  background-color: #092a10;
+  color: #ffffff;
+}
+
+.pq_img {
+  height: 200px;
+}
+
+.participante_cover {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+
+.participante {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 1 300px;
+  min-width: 260px;
+  padding: 1rem;
+}
+
+.people {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.participante_texto {
+  flex: 1;
+}
+
+.opinion {
+  width: auto;
+  margin: 0;
+}
+
+.Nome {
+  font-weight: bold;
+}
+
+@media (max-width: 1025px) {
+  .banner_text {
+    top: 3%;
+  }
+}
+
+@media (max-width: 769px) {
+  .banner {
+      height: 290px;
+      object-fit: cover;
+    }
+
+  .banner_text h4 {
+    font-size: 14px;
+  }
+
+  .banner_text h1 {
+    font-size: 25px;
+  }
+
+  .banner_text h3 {
+    font-size: 18px;
+  }
+
+  .banner_text p {
+      font-size: 14px;
+  }  
+
+  .banner_text .btn {
+    margin-top:-20px;
+    font-size: 15px;
+    padding: 2px 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner{
+    height: 400px;
+  }
+  .information {
+    max-width: 100%;
+  }
+}

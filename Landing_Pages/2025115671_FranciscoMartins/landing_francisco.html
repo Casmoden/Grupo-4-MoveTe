@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landing_francisco.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section>
+        <img src="img/banner.jpeg" class="banner" alt="banner" />
+        <div class="banner_text">
+            <h4 class="secondcolor text-uppercase">Evento Noturno de</h4>
+            <h1 class="text-light text-uppercase">Caminhada</h1>
+            <h3 class="text-light">Dar passos também é ajudar.</h3>
+            <p class="text-light">
+                Junta-te a nós numa caminhada solidária sob as estrelas e faz a diferença na tua comunidade.
+            </p>
+            <p class="text-light">100% dos fundos revertem para uma causa local.</p>
+            <div class="information row text-light pb-3  align-items-center">
+                <div class="col-auto d-flex align-items-center gap-2">
+                    <img src="img/calender.png" class="info_img" alt="calender">
+                    <div>
+                        <small class="d-block secondcolor fw-bold">Data</small>
+                        <small>24 de Outubro de 2026 (sábado)</small>
+                    </div>
+                </div>
+                <div class="col-auto d-flex align-items-center gap-2">
+                    <img src="img/location.png" class="info_img" alt="Local">
+                    <div>
+                        <small class="d-block secondcolor fw-bold">Local</small>
+                        <small>Bajouca, Leiria</small>
+                    </div>
+                </div>
+                <div class="col-auto d-flex align-items-center gap-2">
+                    <img src="img/clock.png" class="info_img" alt="clock">
+                    <div>
+                        <small class="d-block secondcolor fw-bold">Horário</small>
+                        <small>19:30 - 23:00</small>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#formulario">
+                <button type="button" class="btn btn_color">
+                    Quero participar!
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <section>
+        <div class="backcolor">
+            <h3 class="text-center py-3 secondcolor">Porque Participar?</h3>
+            <div class="container text-center pb-3">
+                <div class="row align-items-center row-gap-5">
+                    <div class="col-12 col-lg-3">
+                        <img src="img/head.png" class="pq_img" alt="head">
+                        <h4>Convívio e natureza</h4>
+                        <p>Uma experiência única para partilhar com amigos, família e comunidade.</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <img src="img/shoes.png" class="pq_img" alt="shoes">
+                        <h4>Todos são bem-vindos</h4>
+                        <p>Percurso acessível a todos os níveis de experiência.</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <img src="img/heart.png" class="pq_img" alt="heart">
+                        <h4>Solidariedade em ação</h4>
+                        <p>Juntos fazemos a diferença na nossa comunidade local.</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <img src="img/folha.png" class="pq_img" alt="folha">
+                        <h4>Mais do que um evento</h4>
+                        <p>É um passo por um futuro melhor para quem mais precisa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="formulario container" id="formulario">
+        <h2 class="py-3">Inscreve-te agora</h2>
+        <p>Preenche o formulário e garante o teu lugar neste evento solidário.</p>
+        <form class="py-4">
+            <div class="mb-3">
+                <label for="InputName" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="InputName" placeholder="Nome completo" required>
+            </div>
+            <div class="mb-3">
+                <label for="InputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+                    placeholder="email@gmail.com" required>
+            </div>
+            <div class="mb-3">
+                <label for="InputNumber" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="InputNumber" placeholder="*********" required>
+            </div>
+            <div class="mb-3">
+                <label for="Inputage" class="form-label">Idade</label>
+                <input type="number" class="form-control" id="Inputage" placeholder="Sua idade" required>
+            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gênero</label>
+                <select class="form-control" id="gender" required>
+                    <option value="">Selecione</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn_color">
+                Quero inscrever-me!
+            </button>
+        </form>
+    </section>
+
+    <section>
+        <div class="backcolor">
+            <h3 class="pt-3 px-4">Quem participou</h3>
+            <div class="container pb-3">
+                <div class="row align-items-center row-gap-5">
+                    <div class="col-12 col-lg-4">
+                        <div class="participante">
+                            <img src="img/Marta.png" class="people" alt="Marta" />
+                            <div class="participante_texto">
+                                <p class="opinion">
+                                    "Foi uma experiência incrível! A organização esteve de parabéns e
+                                    saber que ajudámos uma causa local tornou tudo ainda mais
+                                    especial."
+                                </p>
+                                <p class="Nome">Marta Silva</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="participante">
+                            <img src="img/Paulo.png" class="people" alt="Paulo" />
+                            <div class="participante_texto">
+                                <p class="opinion">
+                                    "Percurso bonito, boa companhia e um propósito nobre. Já estou
+                                    incrito para o próximo ano!"
+                                </p>
+                                <p class="Nome">Paulo Santos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="participante">
+                            <img src="img/Joana.png" class="people" alt="Joana" />
+                            <div class="participante_texto">
+                                <p class="opinion">
+                                    "É o tipo de evento que faz bem à alma. Natureza, pessoas e uma
+                                    causa que realmente importa."
+                                </p>
+                                <p class="Nome">Joana Martins</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
