@@ -1,0 +1,41 @@
+.hero-section {
+  min-height: 85vh;
+  position: relative;
+}
+
+.hero-bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.hero-content {
+  z-index: 2;
+}
+
+.hero-overlay-card {
+  background-color: #0C3A16;
+  border-radius: 4px;
+}
+
+.rankings-section {
+  background-color: #ffc107;
+}
+
+.podium-img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border: 4px solid #ffffff;
+}
+
+/* Galeria Inferior */
+.gallery-img {
+  height: 480px;
+  object-fit: cover;
+  width: 100%;
+}
