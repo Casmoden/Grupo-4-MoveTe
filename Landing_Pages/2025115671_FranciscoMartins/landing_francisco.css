@@ -91,7 +91,7 @@
 
 @media (max-width: 769px) {
   .banner {
-    height: 350px;
+    height: 290px;
     object-fit: cover;
   }
 
@@ -115,5 +115,12 @@
     margin-top:-20px;
     font-size: 15px;
     padding: 2px 12px;
+  }
+}
+
+@media (max-width: 426px) {
+  .banner {
+    height: 350px;
+    object-fit: cover;
   }
 }
