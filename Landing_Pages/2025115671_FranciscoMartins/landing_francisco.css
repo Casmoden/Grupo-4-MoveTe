@@ -18,8 +18,8 @@
   color: #FDC449;
 }
 
-.information {
-  max-width: 600px;
+.info {
+  width: 100%;
 }
 
 .btn_color {
@@ -91,9 +91,9 @@
 
 @media (max-width: 769px) {
   .banner {
-      height: 290px;
-      object-fit: cover;
-    }
+    height: 290px;
+    object-fit: cover;
+  }
 
   .banner_text h4 {
     font-size: 14px;
@@ -118,11 +118,9 @@
   }
 }
 
-@media (max-width: 425px) {
-  .banner{
-    height: 400px;
-  }
-  .information {
-    max-width: 100%;
+@media (max-width: 426px) {
+  .banner {
+    height: 350px;
+    object-fit: cover;
   }
 }
