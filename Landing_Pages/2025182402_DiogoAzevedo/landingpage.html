@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 30 Dias: Do Zero aos 5 km</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/landingpage.css">
+</head>
+
+<body>
+    <img src="img/corrida_banner.jpg" class="banner" alt="banner" />
+    <div class="banner_text">
+        
+        <h1>Desafio 30 Dias: Do Zero aos 5 km</h1>
+        <div class="paragrafo1">
+            <p>30 dias. 5 quilómetros. Uma versão melhor de ti.</p>
+        </div>
+
+        <div class="paragrafo2">
+            <p>Este desafio foi criado para te ajudar a correr os teus primeiros</p>
+        </div>
+
+        <div class="paragrafo3">
+            <p>5 km, mesmo que hoje não consigas correr nem 1.</p>
+        </div>
+
+        <button type="submit" class="botao-inscreveragora" onclick="irParaFormulario()">QUERO ENTRAR NO DESAFIO</button>
+    </div>
+
+    <div class="container">
+        <div class="desafio">
+            <h2>O que é o desafio</h2>
+            <p>
+                O Desafio 30 Dias: Do Zero aos 5 km é um plano de treino progressivo,
+                simples e eficaz, pensado para qualquer pessoa que queira começar a correr
+                e atingir a meta de 5 km em apenas 30 dias.
+            </p>
+            <ul>
+                <li>Treinos curtos e fáceis de seguir</li>
+                <li>Sem necessidade de equipamento especial</li>
+                <li>Adaptado a todos os níveis</li>
+                <li>Com dicas de motivação e hábitos saudáveis</li>
+            </ul>
+        </div>
+
+        <form id="form-inscricao">
+            <h2 class="py-3">Inscreve-te agora</h2>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" name="nome" autocomplete="name" required />
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" autocomplete="email" required />
+            </div>
+            <div class="mb-3">
+                <label for="idade" class="form-label">Idade</label>
+                <input type="number" class="form-control" id="idade" name="idade" required />
+            </div>
+            <button type="submit" class="botao-enviar">Inscrever-me</button>
+            <div id="feedback"></div>
+        </form>
+
+        <h2>COMO FUNCIONA?</h2>
+        <p>Em 4 semanas, vamos construir o teu progresso:</p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/calendario.png" class="card-img-top" alt="calendario" />
+                    <div class="card-body">
+                        <h5 class="card-title">Semana 1</h5>
+                        <p class="card-text">Adaptação (caminhada + trote)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/corrida.png" class="card-img-top" alt="corrida" />
+                    <div class="card-body">
+                        <h5 class="card-title">Semana 2</h5>
+                        <p class="card-text">Mais corrida, menos pausa</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/aumentar.png" class="card-img-top" alt="aumenta" />
+                    <div class="card-body">
+                        <h5 class="card-title">Semana 3</h5>
+                        <p class="card-text">Aumenta a distância e a resistência</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/chegada.png" class="card-img-top" alt="chegada" />
+                    <div class="card-body">
+                        <h5 class="card-title">Semana 4</h5>
+                        <p class="card-text">Chegas aos 5 km! (e muito mais forte)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fundo">
+        <h2 class="pt-3 px-4">Testemunhas</h2>
+
+        <div class="pb-3">
+            <div class="row align-items-center row-gap-5 mx-0">
+
+                <div class="col-12 col-lg-4">
+                    <div class="testemunhas">
+                        <img src="img/rita.jpg" class="pessoa" alt="rita">
+
+                        <div class="testemunhas_texto">
+                            <h5 class="nome">Rita</h5>
+                            <p class="texto">
+                                Nunca tinha conseguido correr 5 km sem parar. Ao fim dos 30 dias,
+                                consegui completar o desafio. O plano tornou tudo muito mais simples.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="testemunhas">
+                        <img src="img/miguel.jpg" class="pessoa" alt="miguel">
+
+                        <div class="testemunhas_texto">
+                            <h5 class="nome">Miguel</h5>
+                            <p class="texto">
+                                Comecei praticamente do zero e tinha pouca resistência. A progressão
+                                das semanas fez-me ganhar confiança sem sentir que estava a exagerar.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="testemunhas">
+                        <img src="img/ines.jpg" class="pessoa" alt="ines">
+
+                        <div class="testemunhas_texto">
+                            <h5 class="nome">Inês</h5>
+                            <p class="texto">
+                                O que mais gostei foi ter um plano claro para cada dia. Deixei de adiar
+                                e comecei finalmente a criar uma rotina de corrida.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/landingpage.js"></script>
+</body>
+
+</html>
