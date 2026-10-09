@@ -1,0 +1,257 @@
+main {
+    margin:auto;
+}
+
+body {
+    background: #ffff;
+    margin: 0;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    height: 580px;
+    width: 100%;
+    background-image: url("../img/pessoas_correr2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner h1 {
+    background-color: #0C3A16;
+    border-radius: 20px;
+    padding: 10px;
+    color: #FDC449;
+    text-align: center;
+    font-family: cursive;
+    margin: auto;
+    
+}
+
+.container-info {
+    background-color: #0C3A16;
+    padding: 10px;
+    border-radius: 20px;
+    height: 350px;
+    width: 50%;
+    margin: 45px auto auto auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.container-info p {
+    text-align: center;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.container-info h2 {
+    font-family: cursive;
+    color: #FDC449;
+}
+
+.container-form {
+    clear: both;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 150px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#nome {
+    position: relative;
+    float: left;
+    height: auto;
+}
+
+#fname {
+    height: auto;
+    width: 260px;
+}
+
+#ultimonome {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-left: 25px;
+}
+
+#lname {
+    height: auto;
+    width: 260px;
+}
+
+#email {
+    position: relative;
+    float: left;
+    margin:auto;
+}
+
+#Femail {
+    width: 260px;
+    height: auto;
+}
+
+.container-form button {
+    background-color: #FDC449;
+    clear: both;
+    max-width: 80%;
+    height: 35px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto auto auto;
+    opacity: 100%;
+}
+
+
+.container-info-ofertas {
+    clear: both;
+    background-color: #0C3A1E;
+    margin: 50px auto auto auto;
+    border-radius: 20px;
+    max-width: 1250px;
+    height: auto;
+    padding: 10px;
+
+}
+
+#texto {
+    color: #ffffff;
+}
+
+.container-info-ofertas h2 {
+    text-align: center;
+    font-family: cursive;
+    color: #FDC449;
+}
+
+#texto {
+    display: none;
+    margin-bottom: 5px;
+}
+
+#texto-info {
+    display: none;
+    margin-bottom: 5px;
+}
+
+.carregar {
+    background-color: #FDC449;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+}
+
+@media(max-width:950px) {
+    main {
+        margin: 0 auto 0 auto;
+    }
+    .container-info {
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container-form {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        max-width: 350px;
+    }
+    #nome {
+        margin-right: 15px;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #ultimonome {
+        margin-right: 15px;
+        margin-left: 20px;
+    }
+    #email {
+        margin-right: 15px;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .container-info h2 {
+        margin: auto;
+    }
+    .container-form button {
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    .container-info-ofertas {
+        margin:auto;
+        max-width: 80%;
+    }
+    .carregar {
+        max-width: 250px;
+    }
+}
+
+@media(max-width:600px) {
+    .container-form {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+    #nome {
+        margin-right: auto;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #ultimonome {
+        margin-right: auto;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    #email {
+        margin-right: auto;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    #Femail {
+        margin: auto;
+        width: 95%;
+    }
+    #lname {
+        margin: auto;
+        width: 95%;
+    }
+    #fname {
+        margin: auto;
+        width: 95%;
+    }
+    .container-info h2 {
+        margin: auto;
+    }
+
+    .container-form button {
+        width: 80%;
+    }
+
+    .carregar {
+        width: 200px;
+    }
+
+}

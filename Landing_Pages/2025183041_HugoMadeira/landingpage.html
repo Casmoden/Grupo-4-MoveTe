@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/landingpage.css">
+    <title>Evento Temporário</title>
+</head>
+
+<body>
+    <main>
+        <div class="banner">
+                <h1>MoveTe - Caminhar e Correr por Boas Causas</h1>
+        </div>
+            <div class="container-info">
+                <h2>Oferta de Boas-Vindas</h2>
+                <p>Junta-te à MoveTe e recebe inspiração no teu ritmo.
+                    Subscreve a nossa newsletter para receber trilhos, dicas de bem-estar, eventos solidários, histórias
+                    de superação e oportunidades exclusivas para caminhar e correr por boas causas.
+                    MoveTe — porque cada passo pode fazer a diferença.
+                </p>
+                <p id="texto-info">Ao inscrever-te, entras numa comunidade que acredita no poder dos pequenos passos.
+                    Receberás atualizações sobre desafios solidários, eventos locais, iniciativas de impacto social e
+                    formas simples de transformar a tua corrida ou caminhada num gesto que ajuda quem mais precisa.<br>
+                    Connosco, cada quilómetro conta — e cada pessoa também.
+                </p>
+                <button class="carregar" onclick="textobotao('texto-info')">Ver Mais</button>
+            </div>
+        <div class="container-info-ofertas">
+            <h2>O que oferecemos</h2>
+            <ul id="texto">
+                <li>Descontos em inscrições</li>
+                <li>Conteúdos de treino e bem‑estar</li>
+                <li>Brindes e sorteios mensais</li>
+                <li>Histórias que inspiram</li>
+            </ul>
+            <button class="carregar" onclick="textobotao('texto')">Ver Mais</button>
+        </div>
+        <div class="container-form">
+            <form action="/action_page.php">
+                <div id="nome">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" required minlength="3">
+                </div>
+                <div id="ultimonome">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" required minlength="3">
+                </div>
+                <div id="email">
+                    <label for="Femail">Email:</label>
+                    <input type="email" id="Femail" name="Femail" required>
+                </div><br>
+
+                <button type="submit">Assinar Newsletter</button>
+            </form>
+        </div>
+    </main>
+    <script src="js/landingpage.js"></script>
+</body>
+
+</html>
