@@ -44,9 +44,11 @@ body {
     cursor: pointer;
 }
 
-.desafio {
-    margin-top: 10px;
+.objetivos-icon {
+  max-height: 70px;
+  object-fit: contain;
 }
+
 
 form {
     margin-bottom: 15px;
