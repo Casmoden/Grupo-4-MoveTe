@@ -45,10 +45,36 @@ body {
 }
 
 .objetivos-icon {
-  max-height: 70px;
-  object-fit: contain;
+    max-height: 70px;
+    object-fit: contain;
 }
 
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+#form-inscricao {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: white;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 340px;
+}
+
+#form-inscricao h2 {
+    padding-top: 5px !important;
+    padding-bottom: 8px !important;
+}
 
 form {
     margin-bottom: 15px;
@@ -63,11 +89,8 @@ form .form-control:focus {
     background: #FDC449;
     border: solid 0;
     border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    cursor: pointer;
+    padding: 10px;
+    width: 100%;
 }
 
 .card-img-top {
@@ -129,53 +152,77 @@ form .form-control:focus {
 
 
 @media (max-width: 991px) {
-  .banner {
-    height: 360px;
-  }
 
-  .banner_text {
-    top: 10%;
-    left: 6%;
-    right: 6%;
-  }
+    .banner {
+        height: 360px;
+    }
 
-  .banner_text h1 {
-    max-width: 650px;
-  }
+    .banner_text {
+        top: 10%;
+        left: 6%;
+        right: 6%;
+    }
 
-.col {
-    width: 100%;
-  }
+    .banner_text h1 {
+        max-width: 650px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    #form-inscricao {
+        top: 15px;
+        right: 20px;
+        max-width: 300px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+    }
 }
 
 
 @media (max-width: 576px) {
-  .banner {
-    height: 380px;
-    object-position: center;
-  }
+    .banner {
+        height: 380px;
+        object-position: center;
+    }
 
-  .banner_text {
-    top: 7%;
-    left: 5%;
-    right: 5%;
-  }
+    .banner_text {
+        top: 7%;
+        left: 5%;
+        right: 5%;
+    }
 
-  .banner_text h1 {
-    max-width: 100%;
-  }
+    .banner_text h1 {
+        max-width: 100%;
+    }
 
-  .botao-inscreveragora {
-    max-width: 100%;
-  }
+    .botao-inscreveragora {
+        max-width: 100%;
+    }
 
-  .testemunhas {
-    gap: 12px;
-    padding: 12px;
-  }
+    #form-inscricao {
+        top: 50%;
+        left: 50%;
+        right: auto;
+        transform: translate(-50%, -50%);
+        width: 88%;
+        max-width: 320px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+    }
 
-  .pessoa {
-    width: 80px;
-    height: 80px;
-  }
+    .testemunhas {
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .pessoa {
+        width: 80px;
+        height: 80px;
+    }
 }
