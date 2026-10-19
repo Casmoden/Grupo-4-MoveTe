@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner_text {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    color: white;
+}
+
+.paragrafo1 p {
+    margin-bottom: 0;
+}
+
+.paragrafo2 p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.paragrafo3 p {
+    margin-top: 0;
+}
+
+.botao-inscreveragora {
+    font-weight: bold;
+    background: #FDC449;
+    border: solid 0;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.desafio {
+    margin-top: 10px;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+form .form-control:focus {
+    border-color: black;
+    box-shadow: none;
+}
+
+.botao-enviar {
+    background: #FDC449;
+    border: solid 0;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.card-img-top {
+    width: 100%;
+    max-width: 140px;
+    height: auto;
+    display: block;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+
+.col .card {
+    background: #0C3A16;
+}
+
+.fundo {
+    margin-top: 20px;
+    background-color: #092a10;
+    color: #ffffff;
+}
+
+.testemunhas {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.pessoa {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.testemunhas_texto {
+    flex: 1;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+.texto {
+    width: auto;
+    margin: 0;
+}
+
+
+@media (max-width: 991px) {
+  .banner {
+    height: 360px;
+  }
+
+  .banner_text {
+    top: 10%;
+    left: 6%;
+    right: 6%;
+  }
+
+  .banner_text h1 {
+    max-width: 650px;
+  }
+
+.col {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .banner {
+    height: 380px;
+    object-position: center;
+  }
+
+  .banner_text {
+    top: 7%;
+    left: 5%;
+    right: 5%;
+  }
+
+  .banner_text h1 {
+    max-width: 100%;
+  }
+
+  .botao-inscreveragora {
+    max-width: 100%;
+  }
+
+  .testemunhas {
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .pessoa {
+    width: 80px;
+    height: 80px;
+  }
+}
