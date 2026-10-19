@@ -55,6 +55,7 @@ body {
 }
 
 .container-info p {
+    color: #ffffff;
     text-align: center;
     border-radius: 20px;
 }
@@ -153,15 +154,15 @@ body {
     width: 160px;
     border-radius: 20px;
 }
-
-#texto {
-    color: #ffffff;
-}
-
 .container-info-ofertas h2 {
     text-align: center;
     font-family: cursive;
     color: #FDC449;
+}
+
+.container-info-ofertas p {
+    color: #ffffff;
+    text-align: center;
 }
 
 .container-info-ofertas img {
@@ -212,10 +213,6 @@ body {
         width: 80%;
         margin-bottom: 25px;
     }
-    .container-info-ofertas {
-        margin:auto;
-        max-width: 80%;
-    }
 
     .container-info-ofertas {
         flex-direction: column;
@@ -227,17 +224,19 @@ body {
         justify-content: center;
     }
     .container-info-ofertas div {
+        display: flex;
+        align-items: center;
         margin: 15px auto;
-        height: 173px;
         width: 500px;
     }
-    .container-info-ofertas p {
+    .container-info-ofertas p{
         float: right;
         display: flex;
-        margin-top: 40px;
-        margin-left: 10px;
-        margin-right: 100px;
+        margin:auto;
         width: 200px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
 }
@@ -296,11 +295,6 @@ body {
         max-width: 400px;
     }
 
-    .container-info-ofertas p {
-        margin-left: auto;
-        margin-right: 10px;
-        width: 230px;
-    }
 
 }
 @media(max-width:380px) {
@@ -314,10 +308,5 @@ body {
         border-radius: 20px;
     }
 
-    .container-info-ofertas p{
-        width: auto;
-        margin: auto;
-        text-align: center;
-        align-items: center;
-    }
+
 }
