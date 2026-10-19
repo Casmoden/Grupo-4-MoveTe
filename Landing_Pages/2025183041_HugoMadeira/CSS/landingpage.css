@@ -131,7 +131,27 @@ body {
     max-width: 1250px;
     height: auto;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+}
 
+.container-info-ofertas h2 {
+    font-family: cursive;
+    color: #FDC449;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info-ofertas div {
+    align-items: center;
+    float: left;
+    height: fit-content;
+    margin: 30px;
+    width: 160px;
+    border-radius: 20px;
 }
 
 #texto {
@@ -196,6 +216,30 @@ body {
         margin:auto;
         max-width: 80%;
     }
+
+    .container-info-ofertas {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: auto;
+        margin-left: 70px;
+        margin-right: auto;
+        max-width: 80%;
+        justify-content: center;
+    }
+    .container-info-ofertas div {
+        margin: 15px auto;
+        height: 173px;
+        width: 500px;
+    }
+    .container-info-ofertas p {
+        float: right;
+        display: flex;
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 100px;
+        width: 200px;
+    }
+
 }
 
 @media(max-width:600px) {
@@ -239,5 +283,41 @@ body {
     .container-form button {
         width: 80%;
     }
+    .container-info-ofertas {
+        max-width: 100%;
+        margin: 5px;
+    }
 
+    .container-info-ofertas div {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 173px;
+        max-width: 400px;
+    }
+
+    .container-info-ofertas p {
+        margin-left: auto;
+        margin-right: 10px;
+        width: 230px;
+    }
+
+}
+@media(max-width:380px) {
+        .container-info-ofertas div {
+        align-items: center;
+        float: left;
+        height: fit-content;
+        margin: auto;
+        margin-top: 10px;
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .container-info-ofertas p{
+        width: auto;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
 }
