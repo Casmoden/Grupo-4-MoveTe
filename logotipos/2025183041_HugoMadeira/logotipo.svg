@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520.64 126.24">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fbb040;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #231f20;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        font-family: PervitinaDex, 'Pervitina Dex';
+        font-size: 120px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-7" transform="translate(29.96 103.2)"><tspan class="cls-2" x="0" y="0">M</tspan><tspan class="cls-5" x="107.28" y="0">o</tspan><tspan class="cls-3" x="183.36" y="0">v</tspan><tspan class="cls-4" x="249" y="0">e</tspan><tspan class="cls-1" x="327.48" y="0">T</tspan><tspan class="cls-6" x="396.72" y="0">e</tspan></text>
+  <polygon class="cls-2" points="185.3 19.93 400.39 23.06 400.39 16.8 185.3 19.93"/>
+  <polygon class="cls-2" points="188.71 24.87 403.8 29.04 403.8 20.71 188.71 24.87"/>
+  <polygon class="cls-2" points="192.13 29.04 407.22 33.21 407.22 24.87 192.13 29.04"/>
+  <polygon class="cls-2" points="195.55 34.71 410.68 36.05 410.57 27.71 195.55 34.71"/>
+  <polygon class="cls-2" points="200.63 39.22 415.74 39.53 415.66 33.26 200.63 39.22"/>
+  <polygon class="cls-2" points="0 18.94 86.43 23.6 86.52 16.8 0 18.94"/>
+  <polygon class="cls-2" points="1.29 24.33 87.7 30.11 87.84 21.06 1.29 24.33"/>
+  <polygon class="cls-2" points="2.6 28.87 89.01 34.66 89.14 25.61 2.6 28.87"/>
+  <polygon class="cls-2" points="3.91 33 90.32 38.78 90.46 29.73 3.91 33"/>
+  <polygon class="cls-2" points="6.35 37.56 92.78 42.22 92.88 35.42 6.35 37.56"/>
+</svg>
