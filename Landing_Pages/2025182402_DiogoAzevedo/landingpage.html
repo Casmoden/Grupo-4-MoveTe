@@ -13,8 +13,9 @@
 <body>
     <img src="img/corrida_banner.jpg" class="banner" alt="banner">
     <div class="banner_text">
-        
-        <h1>Desafio 30 Dias: Do Zero aos 5 km</h1>
+
+        <h1>Desafio 30 Dias:</h1>
+        <h1> Do Zero aos 5 km</h1>
         <div class="paragrafo1">
             <p>30 dias. 5 quilómetros. Uma versão melhor de ti.</p>
         </div>
@@ -31,38 +32,93 @@
     </div>
 
     <div class="container">
-        <div class="desafio">
-            <h2>O que é o desafio</h2>
-            <p>
-                O Desafio 30 Dias: Do Zero aos 5 km é um plano de treino progressivo,
-                simples e eficaz, pensado para qualquer pessoa que queira começar a correr
-                e atingir a meta de 5 km em apenas 30 dias.
-            </p>
-            <ul>
-                <li>Treinos curtos e fáceis de seguir</li>
-                <li>Sem necessidade de equipamento especial</li>
-                <li>Adaptado a todos os níveis</li>
-                <li>Com dicas de motivação e hábitos saudáveis</li>
-            </ul>
+        <div class="container-objetivos my-4">
+            <h2>Objetivos</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 text-center">
+
+                <div class="col">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="img/utilizador.png" alt="Utilizadores" class="img-fluid mb-3 objetivos-icon">
+                        <span class="display-5 fw-bold">240</span>
+                        <p class="text-muted mt-1 mb-0">Utilizadores que já participaram</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="img/kilometros.png" alt="Kilómetros" class="img-fluid mb-3 objetivos-icon">
+                        <span class="display-5 fw-bold">1200 km</span>
+                        <p class="text-muted mt-1 mb-0">Kilometros já feitos pelos nossos participantes</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="img/patrocinios.png" alt="Patrocínios" class="img-fluid mb-3 objetivos-icon">
+                        <span class="display-5 fw-bold">5</span>
+                        <p class="text-muted mt-1 mb-0">Patrocínios</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="img/doacao.png" alt="Doações" class="img-fluid mb-3 objetivos-icon">
+                        <span class="display-5 fw-bold">250€</span>
+                        <p class="text-muted mt-1 mb-0">Doações</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <form id="form-inscricao">
-            <h2 class="py-3">Inscreve-te agora</h2>
-            <div class="mb-3">
-                <label for="nome" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="nome" name="nome" autocomplete="name" required>
+        <div class="container-galeria my-4">
+            <h2>Galeria</h2>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/galeria1.jpg" class="d-block w-100" alt="galeria1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/galeria2.jpg" class="d-block w-100" alt="galeria2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/galeria3.jpg" class="d-block w-100" alt="galeria3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/galeria4.jpg" class="d-block w-100" alt="galeria4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/galeria5.jpg" class="d-block w-100" alt="galeria5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/galeria6.jpg" class="d-block w-100" alt="galeria6">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/galeria7.jpg" class="d-block w-100" alt="galeria7">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/galeria8.jpg" class="d-block w-100" alt="galeria8">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/galeria9.jpg" class="d-block w-100" alt="galeria9">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/galeria10.jpg" class="d-block w-100" alt="galeria10">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
-            </div>
-            <div class="mb-3">
-                <label for="idade" class="form-label">Idade</label>
-                <input type="number" class="form-control" id="idade" name="idade" required>
-            </div>
-            <button type="submit" class="botao-enviar">Inscrever-me</button>
-            <div id="feedback"></div>
-        </form>
+
+        </div>
 
         <h2>COMO FUNCIONA?</h2>
         <p>Em 4 semanas, vamos construir o teu progresso:</p>
@@ -107,8 +163,31 @@
                 </div>
             </div>
         </div>
-    </div>
 
+<div class="banner-container">
+    <img src="img/banner2.jpg" class="banner" alt="banner2">
+
+    <form id="form-inscricao">
+        <h2 class="py-3">Inscreve-te agora</h2>
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" name="nome" autocomplete="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="idade" class="form-label">Idade</label>
+            <input type="number" class="form-control" id="idade" name="idade" required>
+        </div>
+        <button type="submit" class="botao-enviar">Inscrever-me</button>
+        <div id="feedback"></div>
+    </form>
+</div>
+
+    </div>
+    </div>
     <div class="fundo">
         <h2 class="pt-3 px-4">Testemunhas</h2>
 
@@ -160,6 +239,9 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script src="js/landingpage.js"></script>
 </body>
 
