@@ -1,15 +1,15 @@
 @extends('layout.master')
 
     @section('title')
-    Home
+    Código Caminhante - Giroto
     @endsection
 
     @section('moreCss')
     <!--
-        <link rel="stylesheet" href="{{asset('css/home.css')}}">
+        <link rel="stylesheet" href="{{asset('css/nomedoficheiro.css')}}">
     --!>
     @endsection
 
     @section('content')
-        <h1>idk</h1>
+        <h1>Código Caminhante</h1>
     @endsection
