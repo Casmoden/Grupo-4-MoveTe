@@ -1,0 +1,14 @@
+:root {
+  --primary: #092a10;
+  --secondary: #FDC449;
+}
+
+.navbar{
+    background-color: #092a10 ;
+    color: white;
+}
+
+footer{
+    background-color: #092a10 ;
+    color: white;
+}

@@ -10,23 +10,23 @@ class PageController extends Controller
         return view("index");
     }
 
-    public function conselhos(){
-        return view("conselhos");
+    public function aboutUs(){
+        return view("aboutUs");
     }
 
-    public function contactos(){
-        return view("contactos");
+    public function contacts(){
+        return view("contacts");
     }
 
-    public function guiaPraticante(){
-        return view("guiaPraticante");
+    public function healthAdvice(){
+        return view("healthAdvice");
     }
 
-    public function quemSomos(){
-        return view("quemSomos");
+    public function regulationsSafety(){
+        return view("regulationsSafety");
     }
 
-    public function segurancaRegulamento(){
-        return view("segurancaRegulamento");
+    public function walkerCode(){
+        return view("walkerCode");
     }
 }
