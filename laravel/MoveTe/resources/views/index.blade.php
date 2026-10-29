@@ -5,11 +5,11 @@
     @endsection
 
     @section('moreCss')
-    <!--
         <link rel="stylesheet" href="{{asset('css/home.css')}}">
-    --!>
     @endsection
 
     @section('content')
-        <h1>idk</h1>
+        <h1>Home</h1>
     @endsection
+
+
