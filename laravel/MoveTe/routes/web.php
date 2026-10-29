@@ -5,12 +5,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'index'])->name('index');
 
-Route::get('/conselhos', [PageController::class, 'conselhos'])->name('conselhos');
+Route::get('/aboutUs', [PageController::class, 'aboutUs'])->name('aboutUs');
 
-Route::get('/contactos', [PageController::class, 'contactos'])->name('contactos');
+Route::get('/contacts', [PageController::class, 'contacts'])->name('contacts');
 
-Route::get('/guiaPraticante', [PageController::class, 'guiaPraticante'])->name('guiaPraticante');
+Route::get('/healthAdvice', [PageController::class, 'healthAdvice'])->name('healthAdvice');
 
-Route::get('/quemSomos', [PageController::class, 'quemSomos'])->name('quemSomos');
+Route::get('/regulationsSafety', [PageController::class, 'regulationsSafety'])->name('regulationsSafety');
 
-Route::get('/segurancaRegulamento', [PageController::class, 'segurancaRegulamento'])->name('segurancaRegulamento');
+Route::get('/walkerCode', [PageController::class, 'walkerCode'])->name('walkerCode');
