@@ -11,7 +11,7 @@
 @section('content')
     <section>
         <div class="banner-cover">
-            <img src="{{asset('img/conselhos/banner.png')}}" class="banner" alt="banner">
+            <img src="{{asset('img/healthAdvice/banner.png')}}" class="banner" alt="banner">
             <div class="text-light banner-text position-relative">
                 <h1>O teu primeiro passo: Saúde e Bem-Estar ao teu ritmo</h1>
                 <h4>"A maior distância de qualquer caminhada é a distância entre o sofá e a porta de casa."</h4>
@@ -26,7 +26,7 @@
             <div class="row column-gap-5 row-gap-3 justify-content-center">
                 <div class="col-12 col-md-auto p-0">
                     <div class="card card-bg rounded-4 mx-auto align-items-center" style="width: 15rem; height:380px;">
-                        <img src="{{ asset('img/conselhos/sapato.png') }}" class="card-img-top mb-4" style="width:80%; height: 150px;" alt="sapato">
+                        <img src="{{ asset('img/healthAdvice/sapato.png') }}" class="card-img-top mb-4" style="width:80%; height: 150px;" alt="sapato">
                         <div class="card-body">
                             <h4 class="text-center color-sec">Sapatilhas Confortáveis: </h4>
                             <p class="card-text text-light text-center">Não precisam de ser os melhores ténis. Procura um
@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-12 col-md-auto p-0">
                     <div class="card card-bg rounded-4 mx-auto align-items-center" style="width: 15rem; height:380px;">
-                        <img src="{{ asset('img/conselhos/camisola.png') }}" class="card-img-top" style="width:80%; height: 180px;" alt="sapato">
+                        <img src="{{ asset('img/healthAdvice/camisola.png') }}" class="card-img-top" style="width:80%; height: 180px;" alt="sapato">
                         <div class="card-body">
                             <h4 class="text-center color-sec">Roupas leves e transpiráveis:</h4>
                             <p class="card-text text-light text-center">Opta por tecidos sintéticos (como poliéster) que
@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-12 col-md-auto p-0">
                     <div class="card card-bg rounded-4 mx-auto align-items-center" style="width: 15rem; height:380px;">
-                        <img src="{{ asset('img/conselhos/garrafa.png') }}" class="card-img-top" style="width:80%; height: 180px;" alt="sapato">
+                        <img src="{{ asset('img/healthAdvice/garrafa.png') }}" class="card-img-top" style="width:80%; height: 180px;" alt="sapato">
                         <div class="card-body">
                             <h4 class="text-center color-sec">Garrafa de água:</h4>
                             <p class="card-text text-light text-center">Leva sempre contigo uma garrafa de água para
@@ -81,7 +81,7 @@
                 </ul>
             </div>
             <div>
-                <img src="{{ asset('img/conselhos/relogio.png') }}" alt="relógio" class="clock" style="width: 15rem; height:15rem;">
+                <img src="{{ asset('img/healthAdvice/relogio.png') }}" alt="relógio" class="clock" style="width: 15rem; height:15rem;">
             </div>
         </div>
     </section>
