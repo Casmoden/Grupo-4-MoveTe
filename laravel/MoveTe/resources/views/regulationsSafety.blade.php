@@ -9,13 +9,15 @@
 @endsection
 
 @section('content')
-    <img src="{{ asset('img/regulationsSafety/banner.jpg') }}" class="banner" alt="banner">
-    <div class="banner_text">
-        <h1>Segurança e Regulamento </h1>
-        <div class="text">
-            <p>Consulta as regras de participação,
-                as condições de segurança e
-                as informações importantes antes de participares num dos nossos eventos.</p>
+    <div class="banner-container">
+        <img src="{{ asset('img/regulationsSafety/banner.jpg') }}" class="banner" alt="banner">
+        <div class="banner_text">
+            <h1>Segurança e Regulamento </h1>
+            <div class="text">
+                <p>Consulta as regras de participação,
+                    as condições de segurança e
+                    as informações importantes antes de participares num dos nossos eventos.</p>
+            </div>
         </div>
     </div>
 
@@ -148,6 +150,60 @@
             <li class="mb-2">
                 <strong>Sinalizar a Posição:</strong>Em caso de queda ou lesão tua ou de outro atleta, não saias do trilho
                 marcado. Mantém a calma, liga para a organização e aguarda no local até à chegada da equipa de apoio.
+        </ul>
+    </div>
+
+    <div class="d-flex align-items-center gap-2 mt-4 ms-lg-5">
+        <img src="{{ asset('img/regulationsSafety/saude.png') }}" class="icons" alt="icons">
+        <h2 class="fw-bold mb-0">Seguros e Assistência Médica</h2>
+    </div>
+
+    <div class="descricao">
+        <div class="paragrafo1 mt-3">
+            <p>A tua saúde e proteção vêm sempre em primeiro lugar.</p>
+        </div>
+        <p>Todos os participantes inscritos nos eventos MoveTe contam com cobertura de seguro desportivo e equipas de
+            socorro preparadas para atuar no terreno.</p>
+
+        <div class="subtitulo mt-3">
+            <p>Seguro Desportivo Obrigatório</p>
+        </div>
+        <ul>
+            <li class="mb-2">
+                <strong>Cobertura Automática:</strong>Ao confirmares a tua inscrição, ficas logo abrangido por uma apólice
+                de acidentes pessoais durante todo o período oficial do evento.
+            </li>
+            <li class="mb-2">
+                <strong>O Que Cobre:</strong>O seguro garante despesas de tratamento médico de urgência, transporte até ao
+                hospital mais próximo e eventuais indemnizações por invalidez ou morte resultantes de acidentes durante a
+                atividade.
+            </li>
+        </ul>
+
+        <div class="subtitulo mt-3">
+            <p>Apoio Médico e Primeiros Socorros</p>
+        </div>
+        <ul>
+            <li class="mb-2">
+                <strong>Postos de Socorro Fixos:</strong>Pelo menos uma ambulância e tenda de primeiros socorros presentes
+                na zona de partida/chegada e em pontos estratégicos do trajeto.
+            </li>
+            <li class="mb-2">
+                <strong>Socorristas no Terreno:</strong>Elementos equipados com mochilas de suporte básico de vida ao longo
+                do percurso, prontos a fazer curativos rápidos ou imobilizações.
+        </ul>
+
+        <div class="subtitulo mt-3">
+            <p>O Que Fazer em Caso de Acidente</p>
+        </div>
+        <ul>
+            <li class="mb-2">
+                <strong>Pedir Auxílio Imediato:</strong>Se te magoares ou vires outro participante ferido, alerta de
+                imediato o membro da organização mais próximo ou liga para o número de emergência indicado no dorsal.
+            </li>
+            <li class="mb-2">
+                <strong>Participação do Seguro:</strong>Se precisares de ir ao hospital, pede a ficha de intervenção aos
+                socorristas no local e contacta a MoveTe nas 48 horas seguintes para ativarmos o processo do seguro.
         </ul>
     </div>
 @endsection

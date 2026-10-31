@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .banner {
@@ -10,6 +11,10 @@ body {
     height: 420px;
     object-fit: cover;
     object-position: center;
+}
+
+.banner-container {
+    position: relative;
 }
 
 .banner_text {
@@ -23,7 +28,7 @@ body {
     max-width: 480px;
 }
 
-.icons{
+.icons {
     width: 50px;
     height: 50px;
 }
@@ -32,12 +37,58 @@ body {
     margin-bottom: 0;
 }
 
-.descricao{
+.descricao {
     margin-left: 60px;
 }
 
-.subtitulo p{
+.subtitulo p {
     color: var(--primary);
     font-weight: bold;
     margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .banner {
+        height: 340px;
+    }
+
+    .banner_text {
+        top: 14%;
+        left: 6%;
+    }
+
+    .text {
+        max-width: 430px;
+    }
+
+    .descricao {
+        margin-left: 36px;
+        margin-right: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .banner {
+        height: 300px;
+    }
+
+    .banner_text {
+        top: 14%;
+        left: 5%;
+        right: 5%;
+    }
+
+    .banner_text h1 {
+        margin-bottom: 8px;
+    }
+
+    .text {
+        max-width: none;
+    }
+
+    .descricao {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }
