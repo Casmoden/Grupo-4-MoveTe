@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MoveTe - @yield('title')</title>
 
-    <link rel="shortcut icon" href="{{asset('img/Chandler.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('img/LogotipoCometa.png')}}" type="image/x-icon">
     <link rel="stylesheet" href="{{asset('css/styles.css')}}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
