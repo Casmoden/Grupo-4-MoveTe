@@ -12,6 +12,13 @@ body {
     object-position: center;
 }
 
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 23px;
+    width: 100px;
+}
+
 .banner_text {
     position: absolute;
     top: 15%;
@@ -113,21 +120,21 @@ form .form-control:focus {
 }
 
 .col .card {
-    background: #0C3A16;
+    background: #092A10;
 }
 
 .fundo {
     margin-top: 20px;
-    background-color: #092a10;
+    background-color: #092A10;
     color: #ffffff;
 }
 
 .testemunhas {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
     width: 100%;
-    padding: 1rem;
+    padding: 16px;
     box-sizing: border-box;
 }
 
@@ -157,8 +164,14 @@ form .form-control:focus {
         height: 360px;
     }
 
+    .logo {
+        top: 12px;
+        left: 18px;
+        width: 80px;
+    }
+
     .banner_text {
-        top: 10%;
+        top: 90px;
         left: 6%;
         right: 6%;
     }
@@ -190,9 +203,15 @@ form .form-control:focus {
     }
 
     .banner_text {
-        top: 7%;
+        top: 85px;
         left: 5%;
         right: 5%;
+    }
+
+    .logo {
+        top: 10px;
+        left: 12px;
+        width: 65px;
     }
 
     .banner_text h1 {
