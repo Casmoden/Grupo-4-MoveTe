@@ -29,4 +29,8 @@ class PageController extends Controller
     public function walkerCode(){
         return view("walkerCode");
     }
+
+    public function cookies(){
+        return view("cookies");
+    }
 }

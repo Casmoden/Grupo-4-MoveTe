@@ -14,3 +14,5 @@ Route::get('/healthAdvice', [PageController::class, 'healthAdvice'])->name('heal
 Route::get('/regulationsSafety', [PageController::class, 'regulationsSafety'])->name('regulationsSafety');
 
 Route::get('/walkerCode', [PageController::class, 'walkerCode'])->name('walkerCode');
+
+Route::get('/cookies', [PageController::class, 'cookies'])->name('cookies');
