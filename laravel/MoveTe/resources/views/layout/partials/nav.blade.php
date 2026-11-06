@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg bg-nav navbar-color">
+<nav class="navbar navbar-expand-lg navbar-color">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ route('index') }}"><img src="{{ asset('img/Chandler.png') }}" alt="Logo MoveTe"
+        <a class="navbar-brand ps-3" href="{{ route('index') }}"><img src="{{ asset('img/Logo.png') }}" alt="Logo MoveTe"
                 style="max-width: 120px; max-height: 50px; transform: translateX(-13px)" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,12 +9,12 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <a class="nav-link text-light" href="{{ route('index') }}" aria-expanded="false">
+                <a class="nav-link text-dark" href="{{ route('index') }}" aria-expanded="false">
                     Home
                 </a>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                    <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Para Iniciantes
                     </a>
@@ -26,7 +26,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                    <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Atividades
                     </a>
@@ -40,7 +40,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                    <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Institucional
                     </a>

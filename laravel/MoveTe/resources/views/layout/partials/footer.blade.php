@@ -4,8 +4,8 @@
             <div class="row py-5">
                 <div class="col-12 col-lg-3 mb-4 mb-lg-0 text-center text-lg-start">
                     <a class="footer-brand" href="{{ route('index') }}">
-                        <img src="{{ asset('img/Chandler.png') }}" alt="Logo MoveTe"
-                            style="max-width: 200px; max-height: 50px;" />
+                        <img src="{{ asset('img/LogotipoFooter.png') }}" alt="Logo MoveTe"
+                            style="max-width: 300px; max-height: 100px;" />
                     </a>
                     <p class="mt-2" style="font-size: 0.8rem">A nossa missão é transformar hábitos e combater o sedentarismo com foco no bem-estar, saúde e comunidade.</p>
                 </div>
@@ -36,6 +36,7 @@
                             <h5>Links Rápidos</h5>
                             <ul class="nav flex-column">
                                 <li class="nav-item mb-2"><a href="{{ route('contacts') }}" class="nav-link text-light p-0">Contactos</a></li>
+                                <li class="nav-item mb-2"><a href="{{ route('accessibilityPolicy') }}" class="nav-link text-light p-0">Política de Acessibilidade</a></li>
                             </ul>
                         </div>
                     </div>

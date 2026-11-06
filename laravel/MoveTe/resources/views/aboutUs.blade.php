@@ -1,13 +1,13 @@
 @extends('layout.master')
 
     @section('title')
-    Sobre nós - Hugo
+    Sobre nós
     @endsection
 
     @section('moreCss')
-    <!--
-        <link rel="stylesheet" href="{{asset('css/nomedoficheiro.css')}}">
-    --!>
+
+        <link rel="stylesheet" href="{{asset('css/aboutUs.css')}}">
+
     @endsection
 
     @section('content')
