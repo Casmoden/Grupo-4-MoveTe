@@ -30,6 +30,8 @@ class PageController extends Controller
         return view("walkerCode");
     }
 
+    public function cookies(){
+        return view("cookies");
     public function accessibilityPolicy(){
         return view("accessibilityPolicy");
     }
