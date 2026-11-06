@@ -9,10 +9,80 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#inicio" aria-label="MoveTe, início">
-        <span class="brand-name">Move<span>Te</span></span>
-      </a>
-      <a class="header-link" href="#inscricao">Quero ajudar</a>
+      <nav class="navbar" aria-label="Navegação principal">
+        <div class="navbar-container">
+          <a class="navbar-brand" href="#inicio" aria-label="MoveTe - Início">
+            <span class="navbar-logo-wrap">
+              <img src="img/logotipo.svg" alt="Logótipo MoveTe" class="navbar-logo" />
+            </span>
+          </a>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-label="Abrir menu de navegação"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+
+          <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio">Home</a>
+              </li>
+
+              <li class="nav-item has-dropdown">
+                <button class="nav-link nav-dropdown-btn" type="button" aria-expanded="false">
+                  Para Iniciantes
+                  <svg class="nav-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
+                    <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#regras">Regras</a></li>
+                  <li><a class="dropdown-item" href="#conselho-saude">Conselho de Saúde</a></li>
+                  <li><a class="dropdown-item" href="#codigo-caminhante">Código de Caminhante</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item has-dropdown">
+                <button class="nav-link nav-dropdown-btn" type="button" aria-expanded="false">
+                  Atividades
+                  <svg class="nav-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
+                    <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#eventos">Eventos</a></li>
+                  <li><a class="dropdown-item" href="#resultados">Resultados de provas</a></li>
+                  <li><a class="dropdown-item" href="#desafios">Desafios</a></li>
+                  <li><a class="dropdown-item" href="#circuitos">Circuitos</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item has-dropdown">
+                <button class="nav-link nav-dropdown-btn" type="button" aria-expanded="false">
+                  Institucional
+                  <svg class="nav-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
+                    <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#noticias">Notícias</a></li>
+                  <li><a class="dropdown-item" href="#parceiros">Parceiros e patrocinadores</a></li>
+                  <li><a class="dropdown-item active" href="#inscricao">Voluntariado</a></li>
+                  <li><a class="dropdown-item" href="#socio">Sócio</a></li>
+                  <li><a class="dropdown-item" href="#sobre-nos">Sobre Nós</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
@@ -132,8 +202,116 @@
     </main>
 
     <footer class="site-footer">
-      <p>MoveTe</p>
-      <a class="back-top" href="#inicio">Voltar ao início</a>
+      <div class="footer-container">
+        <div class="footer-brand-col">
+          <a href="#inicio" class="footer-brand" aria-label="MoveTe - Início">
+            <span class="footer-logo-wrap">
+              <img src="img/logotipo.svg" alt="Logótipo MoveTe" class="footer-logo" />
+            </span>
+          </a>
+          <p class="footer-mission">
+            A nossa missão é transformar hábitos e combater o sedentarismo com foco no bem-estar, saúde e comunidade.
+          </p>
+        </div>
+
+        <div class="footer-nav-cols">
+          <div class="footer-col">
+            <h4 class="footer-col-title">Para Iniciantes</h4>
+            <ul class="footer-links">
+              <li><a href="#regras">Regras</a></li>
+              <li><a href="#conselho-saude">Conselho de Saúde</a></li>
+              <li><a href="#codigo-caminhante">Código de Caminhante</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col-title">Atividades</h4>
+            <ul class="footer-links">
+              <li><a href="#eventos">Eventos</a></li>
+              <li><a href="#resultados">Resultados de provas</a></li>
+              <li><a href="#desafios">Desafios</a></li>
+              <li><a href="#circuitos">Circuitos</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col-title">Institucional</h4>
+            <ul class="footer-links">
+              <li><a href="#noticias">Notícias</a></li>
+              <li><a href="#parceiros">Parceiros e patrocinadores</a></li>
+              <li><a href="#inscricao">Voluntariado</a></li>
+              <li><a href="#socio">Sócio</a></li>
+              <li><a href="#sobre-nos">Sobre Nós</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col-title">Links Rápidos</h4>
+            <ul class="footer-links">
+              <li><a href="#acessibilidade">Políticas de acessibilidade</a></li>
+              <li><a href="#privacidade">Políticas de privacidade</a></li>
+              <li><a href="#termos">Termos e condições</a></li>
+              <li><a href="#cookies">Cookies</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contactos">Contactos</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 MoveTe. Todos os direitos reservados.</p>
+        <a class="back-top" href="#inicio">Voltar ao início</a>
+      </div>
     </footer>
+
+    <script>
+      (function () {
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const dropdownItems = document.querySelectorAll('.nav-item.has-dropdown');
+
+        if (navToggle && navMenu) {
+          navToggle.addEventListener('click', function () {
+            const isOpened = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', !isOpened);
+            navToggle.classList.toggle('is-active');
+            navMenu.classList.toggle('is-active');
+          });
+        }
+
+        dropdownItems.forEach(function (item) {
+          const btn = item.querySelector('.nav-dropdown-btn');
+          if (btn) {
+            btn.addEventListener('click', function (e) {
+              if (window.innerWidth <= 860) {
+                e.preventDefault();
+                const isOpen = item.classList.contains('is-open');
+                dropdownItems.forEach(function (other) {
+                  if (other !== item) {
+                    other.classList.remove('is-open');
+                    const otherBtn = other.querySelector('.nav-dropdown-btn');
+                    if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
+                  }
+                });
+                item.classList.toggle('is-open', !isOpen);
+                btn.setAttribute('aria-expanded', !isOpen);
+              }
+            });
+          }
+        });
+
+        const navLinks = document.querySelectorAll('.dropdown-item, .nav-link:not(.nav-dropdown-btn)');
+        navLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            if (window.innerWidth <= 860 && navMenu.classList.contains('is-active')) {
+              navToggle.classList.remove('is-active');
+              navToggle.setAttribute('aria-expanded', 'false');
+              navMenu.classList.remove('is-active');
+            }
+          });
+        });
+      })();
+    </script>
   </body>
 </html>
