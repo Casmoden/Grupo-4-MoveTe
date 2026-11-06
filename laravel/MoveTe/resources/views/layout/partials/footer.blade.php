@@ -36,6 +36,7 @@
                             <h5>Links Rápidos</h5>
                             <ul class="nav flex-column">
                                 <li class="nav-item mb-2"><a href="{{ route('contacts') }}" class="nav-link text-light p-0">Contactos</a></li>
+                                <li class="nav-item mb-2"><a href="{{ route('accessibilityPolicy') }}" class="nav-link text-light p-0">Política de Acessibilidade</a></li>
                             </ul>
                         </div>
                     </div>

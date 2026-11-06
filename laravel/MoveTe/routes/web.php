@@ -9,6 +9,8 @@ Route::get('/aboutUs', [PageController::class, 'aboutUs'])->name('aboutUs');
 
 Route::get('/contacts', [PageController::class, 'contacts'])->name('contacts');
 
+Route::get('/accessibilityPolicy', [PageController::class, 'accessibilityPolicy'])->name('accessibilityPolicy');
+
 Route::get('/healthAdvice', [PageController::class, 'healthAdvice'])->name('healthAdvice');
 
 Route::get('/regulationsSafety', [PageController::class, 'regulationsSafety'])->name('regulationsSafety');
