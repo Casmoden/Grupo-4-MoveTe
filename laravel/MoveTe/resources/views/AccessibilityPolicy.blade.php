@@ -5,7 +5,7 @@
 @endsection
 
 @section('moreCss')
-    <link rel="stylesheet" href="{{ asset('css/AccessibilityPolicy.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/accessibilityPolicy.css') }}">
 @endsection
 
 @section('content')

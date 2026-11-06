@@ -32,6 +32,8 @@ class PageController extends Controller
 
     public function cookies(){
         return view("cookies");
+    }
+    
     public function accessibilityPolicy(){
         return view("accessibilityPolicy");
     }
