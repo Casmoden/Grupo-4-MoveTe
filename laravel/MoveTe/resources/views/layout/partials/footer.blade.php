@@ -38,6 +38,7 @@
                                 <li class="nav-item mb-2"><a href="{{ route('contacts') }}" class="nav-link text-light p-0">Contactos</a></li>
                                 <li class="nav-item mb-2"><a href="{{ route('cookies') }}" class="nav-link text-light p-0">Cookies</a></li>
                                 <li class="nav-item mb-2"><a href="{{ route('accessibilityPolicy') }}" class="nav-link text-light p-0">Política de Acessibilidade</a></li>
+                                <li class="nav-item mb-2"><a href="{{ route('faq') }}" class="nav-link text-light p-0">FAQ</a></li>
                             </ul>
                         </div>
                     </div>

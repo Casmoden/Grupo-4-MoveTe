@@ -1,0 +1,34 @@
+.faq-page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+.faq-page h1 {
+    margin-bottom: 0.75rem;
+}
+
+.faq-page .faq-intro {
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+.faq-page h2 {
+    margin: 1.75rem 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.faq-page p {
+    margin-bottom: 0;
+    line-height: 1.65;
+}
+
+@media (max-width: 576px) {
+    .faq-page {
+        padding: 2rem 1rem;
+    }
+
+    .faq-page .faq-intro {
+        margin-bottom: 2rem;
+    }
+}

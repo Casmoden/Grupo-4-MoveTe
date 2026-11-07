@@ -10,6 +10,10 @@ class PageController extends Controller
         return view("index");
     }
 
+    public function faq(){
+        return view("faq");
+    }
+
     public function aboutUs(){
         return view("aboutUs");
     }
