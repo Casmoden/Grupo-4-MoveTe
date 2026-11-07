@@ -10,6 +10,10 @@ class PageController extends Controller
         return view("index");
     }
 
+    public function faq(){
+        return view("faq");
+    }
+
     public function aboutUs(){
         return view("aboutUs");
     }
@@ -28,5 +32,13 @@ class PageController extends Controller
 
     public function walkerCode(){
         return view("walkerCode");
+    }
+
+    public function cookies(){
+        return view("cookies");
+    }
+    
+    public function accessibilityPolicy(){
+        return view("accessibilityPolicy");
     }
 }
