@@ -14,9 +14,11 @@ return new class extends Migration
         Schema::create('news', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('author',100);
+            $table->string('title');
+            $table->string('image')->nullable();
             $table->text('description');
-            $table->foreign('author')->references('id')->on('users');
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
