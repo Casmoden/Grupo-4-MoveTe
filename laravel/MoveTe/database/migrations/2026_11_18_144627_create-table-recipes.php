@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('recipes', function (Blueprint $table) {
             $table->id();
-            $table->string('name',150)->nullable();
-            $table->text('ingredients')->nullable();
-            $table->string('duration', 50);
-            $table->string('photo', 255);
+            $table->string('name',150);
+            $table->text('ingredients');
+            $table->string('duration', 50)->nullable();
+            $table->string('photo', 255)->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

@@ -13,12 +13,12 @@ return new class extends Migration
     {
         Schema::create('challenges', function (Blueprint $table) {
             $table->id();
-            $table->string('name',150)->nullable();
-            $table->text('todo')->nullable();
-            $table->enum('category',['Corrida','Caminhada','Mobilidade'])->default('Caminhada')->nullable();
-            $table->enum('difficulty',['Fácil','Médio','Difícil'])->default('Fácil')->nullable();
-            $table->text('description');
-            $table->string('description', 50);
+            $table->string('name',150);
+            $table->text('todo');
+            $table->enum('category',['Corrida','Caminhada','Mobilidade'])->default('Caminhada');
+            $table->enum('difficulty',['Fácil','Médio','Difícil'])->default('Fácil');
+            $table->text('description')->nullable();
+            $table->string('duration', 50)->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
