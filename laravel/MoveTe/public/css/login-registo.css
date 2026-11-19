@@ -1,0 +1,7 @@
+.color-sec {
+    background-color: var(--secondary);
+}
+
+.color-sec:hover {
+    background-color: var(--secondary);
+}
