@@ -6,9 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Participation extends Model
 {
-    protected $fillable = [
-        'user_id',
-        'event_id',
-        'date',
-    ];
+
 }
