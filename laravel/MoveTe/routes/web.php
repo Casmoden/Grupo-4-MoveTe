@@ -20,3 +20,7 @@ Route::get('/regulationsSafety', [PageController::class, 'regulationsSafety'])->
 Route::get('/walkerCode', [PageController::class, 'walkerCode'])->name('walkerCode');
 
 Route::get('/cookies', [PageController::class, 'cookies'])->name('cookies');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
