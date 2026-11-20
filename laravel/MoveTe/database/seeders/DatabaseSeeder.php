@@ -11,6 +11,9 @@ use App\Models\Partner;
 use App\Models\Sponsor;
 use App\Models\Participation;
 use App\Models\User;
+use App\Models\Result;
+use App\Models\Volunteer;
+use App\Models\Contact;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -631,6 +634,67 @@ class DatabaseSeeder extends Seeder
             'name' => 'Toyota',
             'user_id' => 10,
             'image' => 'toyota.png',
+        ]);
+
+        $this->command->info('A criar resultados de eventos...');
+
+        Result::create([
+            'event_id' => 1,
+            'place' => 1,
+            'participant_name' => 'Gonçalo Estrelado',
+            'modality' => 'Corrida Ligeira (5 km)',
+            'time' => '24m 10s',
+        ]);
+
+        Result::create([
+            'event_id' => 1,
+            'place' => 2,
+            'participant_name' => 'Francisco Martins',
+            'modality' => 'Corrida Ligeira (5 km)',
+            'time' => '25m 50s',
+        ]);
+
+        Result::create([
+            'event_id' => 1,
+            'place' => 3,
+            'participant_name' => 'Diogo Azevedo',
+            'modality' => 'Caminhada Rápida (5 km)',
+            'time' => '36m 40s',
+        ]);
+
+        Result::create([
+            'event_id' => 1,
+            'place' => 4,
+            'participant_name' => 'Hugo Giroto',
+            'modality' => 'Caminhada Tranquila (5 km)',
+            'time' => '42m 30s',
+        ]);
+
+        Result::create([
+            'event_id' => 1,
+            'place' => 5,
+            'participant_name' => 'Hugo Madeira',
+            'modality' => 'Caminhada Tranquila (5 km)',
+            'time' => '45m 00s',
+        ]);
+
+        $this->command->info('A criar inscrições de voluntários...');
+
+        Volunteer::create([
+            'name' => 'Gonçalo Estrelado',
+            'email' => 'goncalo@movete.pt',
+            'phone' => '914 758 916',
+            'role_preference' => 'Receber e acolher participantes',
+            'availability' => 'Posso ajudar aos sábados de manhã e terças ao fim da tarde.',
+        ]);
+
+        $this->command->info('A criar contactos...');
+
+        Contact::create([
+            'name' => 'Gonçalo Estrelado',
+            'email' => 'goncalo@movete.pt',
+            'subject' => 'Dúvidas sobre as caminhadas',
+            'message' => 'Olá equipa MoveTe! Como funcionam as caminhadas para quem está a começar agora?',
         ]);
     }
 }
