@@ -7,6 +7,8 @@ use App\Models\Challenge;
 use App\Models\Recipe;
 use App\Models\News;
 use App\Models\Sponsorship;
+use App\Models\Partner;
+use App\Models\Sponsor;
 use App\Models\Participation;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -23,9 +25,56 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
+        $this->command->info('A criar utilizadores...');
+
         User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'user2',
+            'email' => 'user2@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'user3',
+            'email' => 'user3@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'user4',
+            'email' => 'user4@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'user5',
+            'email' => 'user5@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'user6',
+            'email' => 'user6@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'user7',
+            'email' => 'user7@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'user8',
+            'email' => 'user8@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'user9',
+            'email' => 'user9@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'user10',
+            'email' => 'user10@example.com',
         ]);
 
         $this->command->info('A criar eventos...');
@@ -458,6 +507,130 @@ class DatabaseSeeder extends Seeder
         Sponsorship::create([
             'description' => 'Patrocínio Diamante - Pacote completo VIP, stand amplo e destaque global',
             'amount' => 8900.00,
+        ]);
+
+        $this->command->info('A criar parceiros...');
+
+        Partner::create([
+            'user_id' => 1,
+            'description' => 'Loja especializada em equipamento desportivo e material para corrida.',
+            'image' => 'decathlon_partner.png',
+        ]);
+
+        Partner::create([
+            'user_id' => 2,
+            'description' => 'Empresa responsável pelo fornecimento de água e bebidas para os participantes.',
+            'image' => 'luso_partner.png',
+        ]);
+
+        Partner::create([
+            'user_id' => 3,
+            'description' => 'Clínica de medicina desportiva que presta apoio médico durante os eventos.',
+            'image' => 'clinica_partner.png',
+        ]);
+
+        Partner::create([
+            'user_id' => 4,
+            'description' => 'Empresa especializada em cronometragem eletrónica de provas desportivas.',
+            'image' => 'timing_partner.png',
+        ]);
+
+        Partner::create([
+            'user_id' => 5,
+            'description' => 'Ginásio parceiro que promove programas de treino para atletas e amadores.',
+            'image' => 'fitness_partner.png',
+        ]);
+
+        Partner::create([
+            'user_id' => 6,
+            'description' => 'Fornecedor oficial de nutrição desportiva e suplementos alimentares.',
+            'image' => 'nutrition_partner.png',
+        ]);
+
+        Partner::create([
+            'user_id' => 7,
+            'description' => 'Empresa de transportes que apoia a logística dos eventos e participantes.',
+            'image' => 'transport_partner.png',
+        ]);
+
+        Partner::create([
+            'user_id' => 8,
+            'description' => 'Entidade local que colabora na organização e divulgação das atividades desportivas.',
+            'image' => 'municipio_partner.png',
+        ]);
+
+        Partner::create([
+            'user_id' => 9,
+            'description' => 'Empresa especializada em fotografia e cobertura multimédia de eventos.',
+            'image' => 'media_partner.png',
+        ]);
+
+        Partner::create([
+            'user_id' => 10,
+            'description' => 'Loja de calçado técnico e acessórios para corrida e caminhada.',
+            'image' => 'running_partner.png',
+        ]);
+
+        $this->command->info('A criar patrocinadores...');
+
+        Sponsor::create([
+            'name' => 'Nike',
+            'user_id' => 1,
+            'image' => 'nike.png',
+        ]);
+
+        Sponsor::create([
+            'name' => 'Adidas',
+            'user_id' => 2,
+            'image' => 'adidas.png',
+        ]);
+
+        Sponsor::create([
+            'name' => 'Decathlon',
+            'user_id' => 3,
+            'image' => 'decathlon.png',
+        ]);
+
+        Sponsor::create([
+            'name' => 'Sport Zone',
+            'user_id' => 4,
+            'image' => 'sportzone.png',
+        ]);
+
+        Sponsor::create([
+            'name' => 'MEO',
+            'user_id' => 5,
+            'image' => 'meo.png',
+        ]);
+
+        Sponsor::create([
+            'name' => 'Vodafone',
+            'user_id' => 6,
+            'image' => 'vodafone.png',
+        ]);
+
+        Sponsor::create([
+            'name' => 'NOS',
+            'user_id' => 7,
+            'image' => 'nos.png',
+        ]);
+
+        Sponsor::create([
+            'name' => 'Continente',
+            'user_id' => 8,
+            'image' => 'continente.png',
+        ]);
+
+        Sponsor::create([
+            'name' => 'Delta Cafés',
+            'user_id' => 9,
+            'image' => 'delta.png',
+        ]);
+
+        Sponsor::create([
+            'name' => 'Toyota',
+            'user_id' => 10,
+            'image' => 'toyota.png',
         ]);
     }
 }
